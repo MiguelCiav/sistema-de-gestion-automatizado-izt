@@ -1,0 +1,9 @@
+INFRAESTRUCTURA: Hay dos computadoras, una en cada laboratorio, cada computadora alojaría la misma aplicación, pero trabajando de forma independiente en la red local de cada laboratorio.
+
+1. Los administradores del sistema deben poder saber quién consumió que reactivos y en cuanta cantidad.
+2. Los reactivos tienen códigos únicos (el químico, no el producto como tal, si hay 3 reactivos del mismo tipo, los 3 compartirían ese mismo código de reactivo), los códigos de los reactivos que son compartidos por ambos laboratorios tienen que ser los mismos.
+3. Debe haber una bitácora de uso de los equipos del laboratorio, es decir, se debe saber quién usó qué equipos, y como los usó.
+4. El sistema debe reportar las calibraciones de los equipos (cuando se hicieron y cuando es la siguiente), esto también aplica para las limpiezas, hay algunos equipos que se calibran y otros que se limpian.
+5. Hay que poder registrar préstamos de reactivos entre los laboratorios.
+6. Los campos de los reactivos por el momento son: el nombre, código, riesgo, valores del rombo de riesgo, cantidad mínima antes de solicitar más, fecha de vencimiento (a veces aplica, a veces no).
+
